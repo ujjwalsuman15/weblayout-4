@@ -1,0 +1,493 @@
+/* online font link start */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+
+/* /online font link end */
+
+
+/* Universal Selector section start */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* /Universal Selector section end */
+
+
+/* Anchor tag section start */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* /Anchor tag section end */
+/* Header Section start */
+header {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    padding: 0px 125px;
+    align-items: center;
+    background: #131e3a;
+    justify-content: space-between;
+}
+
+header ul li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+header ul li {
+    font-weight: 600;
+}
+
+header ul li a.active {
+    color: #ff4f7b;
+}
+
+header ul li a.text-warning {
+    color: rgb(160, 255, 17);
+}
+
+/* /Header Section end */
+
+/*  Banner Section start */
+.banner {
+    width: 100%;
+    height: 650px;
+    color: #fff;
+    padding: 0px 125px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background\ heart.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner h1 {
+    top: 100px;
+    font-size: 50px;
+    position: absolute;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.banner h2 {
+    top: 230px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner form {
+    width: 84%;
+    bottom: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    position: absolute;
+    background: #5c327a;
+}
+
+.banner form button {
+    width: 90px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background: #43215c;
+}
+
+.banner form button.active {
+    background: #fc2d4b;
+}
+
+.banner form label {
+    display: none;
+}
+
+.banner form .search-form {
+    margin-top: 8px;
+}
+
+.banner form .search-form input,
+.banner form .search-form select {
+    width: 180px;
+    height: 35px;
+    margin-right: 9px;
+}
+
+.banner form button.smt {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-right: 10px;
+    background: #fc2d4b;
+}
+
+.underline ul li {
+    margin: 10px;
+    list-style: none;
+    float: left;
+}
+
+.underline ul .und {
+    text-decoration: underline;
+}
+
+.check {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+/*  /Banner Section end */
+
+/* Fun Section Start */
+.fun {
+    width: 100%;
+    height: 300px;
+    padding: 58px 125px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/fun.jpg);
+    background-size: 100% 100%;
+}
+
+.fun h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fun ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fun ul li {
+    width: 130px;
+    height: 125px;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.fun ul li h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.fun ul li p {
+    font-size: 13px;
+}
+
+/* /Fun Section end */
+
+
+/* Travel Newslatter section start */
+
+.travel {
+    width: 100%;
+    height: 300px;
+    padding: 58px 125px;
+    background: linear-gradient(rgba(39, 39, 39, 0.5), rgba(61, 61, 61, 0.5)), url(../img/news3.jpg);
+    background-size: 100% 100%;
+}
+
+.travel h1 {
+    color: #fff;
+    text-align: right;
+    margin: 50px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.travel p {
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+}
+
+.search button {
+    width: 10%;
+    height: 40px;
+    float: right;
+    margin-top: 30px;
+}
+
+.travel form label {
+    display: none;
+}
+
+.travel form input {
+    width: 30%;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: right;
+    padding-left: 10px;
+    background: none;
+
+}
+
+.travel form input ::placeholder {
+    color: #fff;
+}
+
+/* /Travel Newslatter section end */
+
+/* popular destination section start */
+.destination {
+    width: 100%;
+    height: auto;
+    background: #201625;
+    padding: 58px 125px;
+}
+
+.destination h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destination ul {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-template-rows: 300px 300px;
+    grid-gap: 30px;
+}
+
+.destination ul li {
+    color: #000;
+    background: #fff;
+    list-style: none;
+    border: 5px solid #fff;
+    border-radius: 5px solid #fff;
+    text-align: center;
+}
+
+.destination ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.destination ul li h5 {
+    font-size: 14px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destination ul li h5 span {
+    color: #fc2d4b;
+}
+
+.destination ul li p {
+    font-size: 14px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* /popular destination section end */
+
+/* Quick estimate section start */
+.estimate {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    padding: 50px 125px;
+    background: #664CAD;
+}
+
+.estimate h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estimate h1+p {
+    color: #fff;
+    display: flex;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estimate form label {
+    display: none;
+}
+
+.estimate form select,
+.estimate form input {
+    width: 13%;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 14px;
+}
+
+.calculate {
+    background: #FE9102;
+}
+
+.estimate img {
+    height: 250px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* /Quick estimate section end */
+
+/* Latest blog section start */
+.blog {
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+}
+
+.blog h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog h1+p {
+    text-align: center;
+    margin: 0px 200px;
+}
+
+.blog-content {
+    margin: 20px auto;
+    display: flex;
+}
+
+.blog-content div {
+    display: flex;
+    padding: 10px;
+}
+
+.blog-content div div {
+    padding: 0px;
+    padding-left: 20px;
+    display: inline;
+}
+
+.blog-content div div p+h4 {
+    padding: 10px 0px 5px 0px;
+}
+
+.blog-contentp {
+    padding-top: 25px;
+}
+
+/* /Latest blog section end */
+
+/* Footer section start */
+footer {
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(21, 16, 24, 0.96), rgba(21, 16, 26, 0.96)), url(../img/footer.jpg);
+    background-size: 100% 100%;
+}
+
+footer .topfoot {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #918E97;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0px 0px 0px;
+}
+
+footer ul li a {
+    color: #918E97;
+}
+
+footer ul li a span {
+    color: #fff;
+    font-weight: 500;
+}
+
+footer .internationalsites div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitel {
+    margin-right: 50px;
+}
+
+footer .internationalsites div ul li img {
+    width: 10%;
+    height: 10%;
+}
+
+footer .bottomfoot {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+footer .bottomfoot .footmenu ul li,
+footer .bottomfoot .social ul li {
+    display: inline-block;
+}
+
+.bottomfoot div img {
+    margin-right: 20px;
+}
+
+.footmenu ul li a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footmenu p {
+    color: #918E97;
+    font-size: 14px;
+}
+
+.social {
+    margin-left: 150px;
+}
+
+.social ul li i {
+    font-size: 25px;
+}
+
+/* /Footer section end */
+
+/* Media Query section start */
+@media screen and (max-width:1199px) {
+
+    header,
+    .banner,
+    .travel,
+    .destination,
+    .estimate,
+    .blog,
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* /Media Query section end */
