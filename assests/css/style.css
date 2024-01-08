@@ -126,8 +126,6 @@ header ul li a.text-warning {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    margin-left: 0px;
-    margin-right: 10px;
     background: #fc2d4b;
 }
 
@@ -465,9 +463,13 @@ footer .bottomfoot .social ul li {
     font-size: 14px;
 }
 
-.social {
-    margin-left: 150px;
+.footmenu {
+    margin-right: 60px;
 }
+
+/* .social {
+    margin-left: 40px;
+} */
 
 .social ul li i {
     font-size: 25px;
@@ -476,6 +478,7 @@ footer .bottomfoot .social ul li {
 /* /Footer section end */
 
 /* Media Query section start */
+
 @media screen and (max-width:1199px) {
 
     header,
@@ -487,6 +490,187 @@ footer .bottomfoot .social ul li {
     footer {
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .banner form {
+        width: 86%;
+    }
+
+    .banner form .search-form input,
+    .banner form .search-form select {
+        width: 17%;
+    }
+
+    .banner form button.smt {
+        float: right !important;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+
+    .fun ul li {
+        width: 105px;
+        height: 115px;
+        font-size: 35px;
+    }
+
+    .blog-content {
+        display: block;
+    }
+
+    .underline ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    header,
+    .banner,
+    .travel,
+    .destination,
+    .estimate,
+    .blog,
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header ul li.nav {
+        display: none;
+    }
+
+    .banner form {
+        width: auto;
+        flex-direction: column;
+        left: 25%;
+    }
+
+    .banner form .search-form input,
+    .banner form .search-form select {
+        width: 280px;
+        display: block;
+    }
+
+    .search-form span {
+        display: none;
+    }
+
+    .underline ul li {
+        margin: 5px;
+        font-size: 18px;
+        float: none;
+    }
+
+    .underline ul li.radio {
+        display: block;
+    }
+
+    .banner form {
+        bottom: 0px;
+        width: auto;
+    }
+
+    .banner form button.smt {
+        width: 280px;
+        height: 35px;
+        margin: 10px auto;
+        border-radius: 0px;
+    }
+
+    .fun {
+        height: auto;
+    }
+
+    .fun ul {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: 110px 110px;
+        grid-gap: 30px;
+    }
+
+    .fun ul li {
+        font-size: 25px;
+        height: 110px;
+    }
+
+    .fun ul li p {
+        font-size: 14px;
+    }
+
+    .fun ul li h5 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .blog h1+p {
+        margin: 0px 100px;
+    }
+
+    .destination ul {
+        grid-template-columns: repeat(2, 48%);
+        grid-template-rows: 350px 350px 350px 350px;
+    }
+
+    .travel form input {
+        margin-left: 28%;
+        float: left;
+    }
+
+    .travel h1 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .travel p {
+        text-align: center;
+    }
+
+    .search button {
+        margin-right: 30%;
+    }
+
+    .estimate {
+        height: auto;
+    }
+
+    .estimate form select,
+    .estimate form input {
+        width: 130px;
+        height: 40px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+
+    .quick {
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        grid-template-rows: 50% 50%;
+        grid-gap: 0px;
+    }
+
+    footer .topfoot {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 50% 50%;
+        grid-gap: 30px;
+        padding: 0% 10%;
+    }
+
+    footer .internationalsites div {
+        display: grid;
+        grid-template-columns: repeat(2, 100%);
+        grid-template-rows: 100%;
+        grid-gap: 50px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .travel {
+        padding: 1px 20px;
     }
 }
 

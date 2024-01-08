@@ -16,10 +16,10 @@
         <ul>
             <li><a href="index.html"><img src="./assests/img/momondo logo.png" alt="logo" width="100px"
                         height="20px"></a></li>
-            <li><a href="javascript:void()" class="active">Flight</a></li>
-            <li><a href="javascript:void()">Hotel</a></li>
-            <li><a href="javascript:void()">Car Hire</a></li>
-            <li><a href="javascript:void()">Trip Finder</a></li>
+            <li class="nav"><a href="javascript:void()" class="active">Flight</a></li>
+            <li class="nav"><a href="javascript:void()">Hotel</a></li>
+            <li class="nav"><a href="javascript:void()">Car Hire</a></li>
+            <li class="nav"><a href="javascript:void()">Trip Finder</a></li>
         </ul>
         <ul>
             <li>
@@ -90,6 +90,8 @@
                         </li>
                         <li class="radio">
                             <input type="radio" name="Check" value="direct-flight-only" class="check">Direct-flight-only
+                        </li>
+                        <li>
                             <input type="radio" name="Check" value="Include-nearby-airpots" class="check">Include nearby
                             airpots
                         </li>
@@ -210,7 +212,7 @@
         <h1>GET A QUICK ESTIMATE</h1>
         <p>GET A PROFESSIONAL HELP</p>
         <hr size="5px" color="red" width="50px">
-        <form action="" method="post">
+        <form action="" method="post" class="quick">
             <label for="purpose">purpose</label>
             <select name="purpose" id="purpose">
                 <option value="travel">Travel</option>
@@ -468,7 +470,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="bottomfoot">
             <div>
                 <img src="./assests/img/favicon.ico" alt="logo">
