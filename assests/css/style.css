@@ -669,8 +669,79 @@ footer .bottomfoot .social ul li {
 }
 
 @media screen and (max-width:575px) {
+    .banner h1 {
+        top: 20px;
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        top: 100px;
+    }
+
+    .banner form {
+        bottom: 100px;
+        left: 7%;
+    }
+
+    .fun {
+        padding: 80px 30px 20px 90px;
+    }
+
+    .fun ul {
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: 100px 100px;
+        grid-gap: 30px;
+    }
+
     .travel {
         padding: 1px 20px;
+    }
+
+    .travel h1 {
+        margin: 23px 0px 20px 0px;
+    }
+
+    .search button {
+        width: auto;
+        margin-right: 20%;
+    }
+
+    .travel form input {
+        margin-left: 0%;
+        width: auto;
+    }
+
+    .blog h1+p {
+        margin: 0px 10px;
+    }
+
+    .blog-content div {
+        display: block;
+    }
+
+
+    .blog-content div div {
+        padding: 7px 9px 0px 0px;
+        padding-left: 0px;
+        display: inline-block;
+    }
+
+    .blog-content div div p {
+        font-size: 18px;
+    }
+
+    .latestimgblog {
+        width: 100%;
+    }
+
+    .destination ul {
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: 430px 430px 430px 430px;
+    }
+
+    .quick {
+        grid-template-columns: repeat(1, 0%);
+        grid-template-rows: 20% 20%;
     }
 }
 
